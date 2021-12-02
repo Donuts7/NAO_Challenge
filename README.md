@@ -17,7 +17,7 @@ All of these, except for naoqi, are easily obtainable trough the command:
 
 > pip install *name*
 
-To use naoqi, follow this [guide](http://doc.aldebaran.com/2-5/dev/community_software.html#retrieving-software)
+To download and extract naoqi, follow this [guide](http://doc.aldebaran.com/2-5/dev/community_software.html#retrieving-software)
 
 
 
