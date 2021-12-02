@@ -23,7 +23,7 @@ To download and extract naoqi, follow this [guide](http://doc.aldebaran.com/2-5/
 
 ## Usage
 - Open Choreographe
-- In the main.py file, go to line 76 (the last one), where the main() function is called, change the port to match the one in Choreographe
+- In the main.py file, go to line 76 (the last one), where the main() function is called, change port to match the one in Choreographe
 - Run the main.py file and watch NAO dance :)
 
 
