@@ -11,7 +11,7 @@ main.py    -> main python file to run <br>
 search.py  -> python file containing the algorithm
 
 ## Setting up the environment
-Python 2.7 was used to develop this project, make sure to select it as the interpreter before running the code <br>
+Python 2.7 was used to develop this project, make sure to select it as the interpreter before running the code. <br>
 This python project needs some additional libraries in order to work: <br>
 time, os, pygame, naoqi <br>
 All of these, except for naoqi, are easily obtainable trough the command:
