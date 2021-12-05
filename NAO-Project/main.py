@@ -6,7 +6,7 @@ from pygame import mixer
 
 
 def main(ip, port, mandatory):
-    starting_time = time.time()
+    
 
     play_song()
 
@@ -25,17 +25,16 @@ def main(ip, port, mandatory):
             past_moves.append(j)
         check_precondition(mandatory[i], ip, port)
         past_moves.append(mandatory[i])
-    mixer.music.stop()
-    tot = time.time() - starting_time
-    s = 0
-    past_names = []
-
+        
+    mixer.music.stop()    
+    
+    s = 0    
     for i in past_moves:
-        s += i.t
-        past_names.append((i.__name__, i.t))
-    print past_names
+        s += i.t        
     print 'total time: ', s
-    print 'actual time: ', tot
+    
+    
+    
 
 
 def play_song():
