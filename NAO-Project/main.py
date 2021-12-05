@@ -33,9 +33,9 @@ def main(ip, port, mandatory):
         s += i.t        
     print 'total time: ', s
     
-    
-    
+ 
 
+    
 
 def play_song():
     mixer.init()
@@ -71,5 +71,6 @@ def do_move(move, ip, port):
 
 
 '''port changes everytime choreogrphe is opened, please insert correct port '''
+
 
 main("127.0.0.1", 37853, mandatory)
