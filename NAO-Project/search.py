@@ -42,8 +42,8 @@ def generate_transition(past_moves):
                         i) <= 3 and (sequence_time + i.t) <= 30:
 
                     # towards the end of the iteration through mandatory moves, it can happen that the time left
-                    # is not enough, and if the sequence has to be of less than 28 seconds (or else we will exceed
-                    # maximum time), this check prevents this and exits the sequence generation early
+                    # is not enough, and the sequence could be too long and exeed max time ,
+                    # this check prevents this and exits the sequence generation early
                     if end_sequence(tot_time, sequence_time):
                         return sequence
 
