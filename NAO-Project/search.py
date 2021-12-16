@@ -15,8 +15,7 @@ def generate_transition(past_moves):
 
     # in case the total time exceeds 170, no new subsequence will be generated -> the next moves will only be
     # mandatory ones
-    if tot_time >= 170:
-        # print 'tempo finitoh'
+    if tot_time >= 170:        
         return []
     # if the last move performed is crouch, no further subsequences will be generated
     if past_moves[-1] == crouch:
